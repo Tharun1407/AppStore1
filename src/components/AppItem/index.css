@@ -1,0 +1,26 @@
+/* Write your CSS here */
+img {
+  height: 110px;
+  width: 110px;
+}
+
+.para {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  height: 220px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.main-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}

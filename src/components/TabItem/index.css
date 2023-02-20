@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.btn {
+  margin: 20px;
+  outline: 0px;
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 0px;
+  font-family: roboto;
+  font-size: 15px;
+  color: #7b8794;
+  font-weight: 500;
+}
+
+.btn :hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+}
